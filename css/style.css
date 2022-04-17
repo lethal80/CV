@@ -111,7 +111,7 @@ body {
       rgba(255, 255, 255, 0.1) 0%,
       rgba(255, 255, 255, 0.1) 100%
     ),
-    url("/2myFlix/images/BlackWidow.jpg");
+    url("./BlackWidow.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
