@@ -1,103 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Angela's - personal site</title>
-  </head>
-  <body>
-    <img src="images/Angela.png" height="100px" alt="Angela's pic" />
-    <h1>Angela Yu</h1>
-    <p>
-      <em>Founder and CTO of the <strong> App brewery</strong></em>
-    </p>
-    <p>I am an ios and a Web Developers.I love coffee</p>
-    <hr size="3" noshade color="grey" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFlix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="page-top">
+    
+    <a href="#" class="menu-toggle rounded">
+        <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
 
-    <h1>Books and teaching</h1>
-    <ul>
-      <li>Rich Dad And Poor Dad</li>
-      <li>Early Bird</li>
-      <li>How To Influence Friends And Others</li>
-      <li>What Is Actually Why</li>
-    </ul>
-    <hr size="3" noshade color="grey" />
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="#page-top" class="js-scroll-trigger">Flick Play</a>
+            </li>
+            
+            <li class="sidebar-nav-item">
+                <a href="#upComingMovies" class="js-scroll-trigger">Coming Next</a>
+            </li>
+            
+            <li class="sidebar-nav-item">
+                <a href="#topRatedMovies" class="js-scroll-trigger">Top Movies</a>
+            </li>
+            
+            <li class="sidebar-nav-item">
+                <a href="#latestMovies" class="js-scroll-trigger">Latest Movies</a>
+            </li>
+            
+            <li class="sidebar-nav-item">
+                <a href="#englishMovies" class="js-scroll-trigger">English Movies</a>
+            </li>
+            
+            <li class="sidebar-nav-item">
+                <a href="#hindiMovies" class="js-scroll-trigger">Hindi Movies</a>
+     </li>
+            
+        </ul> 
+    </nav>
 
-    <h1>Hobbies</h1>
-    <ol>
-      <li>Playing Games</li>
-      <li>Trecking</li>
-      <li>Climbing Mountains</li>
-      <li>Coding</li>
-      <li>Learning Tech Facts</li>
-    </ol>
-
-    <hr noshade size="3" color="grey" />
-    <h1>The Browser I Visit</h1>
-    a
-    <ul>
-      <li><a href="google.com" target="Google"> Brave Browser </a></li>
-      <li><a href="google.com"> Google chrome </a></li>
-      <li><a href="facebook.com"> Microsoft edge </a></li>
-    </ul>
-
-    <hr />
-
-    <table border="1px" noshade>
-      <thead>
-        <tr>
-          <th>student1</th>
-          <th>student2</th>
-          <th>student3</th>
-        </tr>
-      </thead>
-      <tr>
-        <td>
-          Name is ankit <br />
-          education Engineering <br />
-          course BE
-        </td>
-        <td>
-          Name is Harsh <br />
-          education Engineering <br />
-          course BE
-        </td>
-        <td>
-          Name is ankit <br />
-          education Engineering <br />
-          course BE
-        </td>
-      </tr>
-    </table>
-
-
-    <hr noshade>
-
-    <table cellspacing =  "20" border="3px" >
-      <tr>
-        <th>Skills</th>
-        <th>Rating</th>
-      </tr>
-      <tr>
-       <td>Bootstrap</td>        
-      <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>HTML</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>JS</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-
+    <!-- header -->
+    <header class="masthead d-flex">
+        <div class="container text-center my-auto">
+            <h1 class="mb-1">Black Widow</h1>
+            <h3 class="mb-5"><em>Coming Soon On Flick Play</em></h3>
+            <a href="#" class="btn btn-primary btn-x1 js-scroll-trigger">Watch Trailer Now</a>
+        </div>
+        <div class="overlay"></div>
+    </header>
      
-    </table>
+    <!-- #UpcomingMovies section  -->
+    <section id="upComingMovies">
+        <div class="container">
+            <h2>Up Coming Movies</h2>
+            <div class="row movies">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/upComingMovies/spiderManNoWayHome.jpg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/upComingMovies/morbius.jpg" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/upComingMovies/redNotice.jpg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/upComingMovies/jungleCruise.jpg" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/upComingMovies/redNotice.jpg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/upComingMovies/spiderManNoWayHome.jpg" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  </body>
+    <section id="topRatedMovies">
+        <div class="container">
+            <h2>Top Rated Movies</h2>
+            <div class="row movies">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/topRatedMovies/deadpool.jpeg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/topRatedMovies/guardiansOfTheGalaxy.jpeg" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/topRatedMovies/inception.jpeg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/topRatedMovies/joker.jpeg" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/topRatedMovies/spiderManFarFromHome.jpeg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/topRatedMovies/deadpool-2.jpeg" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/topRatedMovies/his-father-s-legacy-1510255180_ccexpress.jpeg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/topRatedMovies/inception.jpeg" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="latestMovies">
+        <div class="container">
+            <h2>Latest Movies</h2>
+            <div class="row movies">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/latestMovies/adamsproject.jpeg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/latestMovies/antMan.jpeg" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/latestMovies/avengersInfinityWar.jpeg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/latestMovies/bloodshot.jpeg" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/latestMovies/deathnote.jpeg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/latestMovies/adamsproject.jpeg" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="englishMovies">
+        <div class="container">
+            <h2>English Movies</h2>
+            <div class="row movies">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/upComingMovies/spiderManNoWayHome.jpg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/upComingMovies/morbius.jpg" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/upComingMovies/redNotice.jpg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/upComingMovies/jungleCruise.jpg" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/upComingMovies/redNotice.jpg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/upComingMovies/spiderManNoWayHome.jpg" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hindiMovies">
+        <div class="container">
+            <h2>Hindi Movies</h2>
+            <div class="row movies">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/HindiMovies/bhuj.jpeg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/HindiMovies/kgf-2.jpeg" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/HindiMovies/runway34.jpeg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/HindiMovies/sooryavanshi.jpeg" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-6"><a href="#"><img src="images/HindiMovies/bhuj.jpeg" alt=""></a></div>
+                        <div class="col-6"><a href="#"><img src="images/HindiMovies/uri.jpeg" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer id="footer">
+        <i class="social-icon fa fa-facebook"></i>
+        <i class="social-icon fa fa-twitter"></i>
+        <i class="social-icon fa fa-instagram" aria-hidden="true"></i>
+        <i class="social-icon fa fa-envelope"></i>
+        <i class="social-icon fa fa-pinterest"></i>
+        <i class="social-icon fa fa-youtube"></i>
+        <p>copyright &copy; 2022 <a href="index.html" class="footername">Flick Play</a></p>
+    </footer>
+
+    <a href="#page-top" class="scroll-to-top rounded js-scroll-trigger">
+        <i class="fa fa-angle-up"></i>
+    </a>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
 </html>
